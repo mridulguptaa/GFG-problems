@@ -1,0 +1,31 @@
+The battle between Pandavas and kauravas is about to begin in a week. Dhritarashtra,king of Kauravas is a bit worried about his army. He wants to have maximum number of Gaja(soldier on an elephant) to increase the chances of his victory.
+Each Gaja needs a mahout who would ride the elephant for him. Each mahout has a skill level SKi and each elephant has an aggressiveness of AGi. A mahout can control and ride an elephant if and only if his skills are atleast double the aggressiveness of his elephant.
+In other words, a mahout i can control an elephant j if and only if 
+SKi >= 2*AGj.
+Help Dhritarashtra find the maximum number of Gajas in his army.
+
+
+Input: First line contains n and m, the number of mahouts and the number of elephants in the army. Second line contains n space separated integers denoting skill level of mahouts. Third line contains m space separated integers denoting aggressiveness of elephants.
+
+Output: Print a single integer denoting the maximum number of Gajas in the army.
+
+Your Task : Complete the function Maximum_Gaja that returns maximum number of Gajas possible in the army. The function accepts n,m,sk,ag as parameters.
+
+Constraints:
+1<=N,M<=100000
+1<=A[i],S[i]<=1e9
+
+Example:
+
+Input:
+
+4 3
+2 4 3 1
+3 1 2
+
+Output:
+2
+
+Explanation:
+
+There can be maximum of 2 Gajas. Possible combination are {S2,A1} and {S4,A2}

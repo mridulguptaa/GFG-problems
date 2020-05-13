@@ -1,0 +1,37 @@
+Input: The first line contains the number of test cases T. For each testcase, there will be 2 lines. First line contains N, denoting the size of the array. Second line contains N space separated integers denoting the elements of the array.
+Output: Corresponding to each test case, print the Product of all subarrays of the array in a new line.
+
+Your Task : Complete the all_subarray_product function that takes array and n and returns Product of all subarrays of the array.
+Constraints:
+
+1<=T<=100
+
+1<=N<=1000
+
+1<=arr[i]<=10
+Example:
+
+Input:
+
+2
+
+3
+
+10 3 7
+
+2
+
+2 4
+
+Output:
+
+30870
+
+64
+
+Explanation:
+
+TestCase 1 :  Here, subarrays are [10], [10, 3], [10, 3, 7], [3], [3, 7], [7]. Prodcuts are 10, 30, 210, 3, 21 and 7 . Product of all Subarrays = 30870.
+
+TestCase 2: Here, subarrays are [2], [2, 4], [4]. Prodcuts are 2, 8, 4. Product of all Subarrays = 64.
+
