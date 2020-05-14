@@ -10,14 +10,18 @@ int main()
     cout<<t<<"\n";
     while(t--)
     {
-        int n = rand()%1000+1;
-        int m = rand()%100000+100;
+        int n = 100;//rand()%99+2;
+        int m = 100;//rand()%99+2;
         cout<<n<<" "<<m<<"\n";
 
         for (int i = 0; i < n; ++i)
-           	cout<<rand()%1000+i+1<<" ";
+        {
+        	for(int j=0;j<m;j++)
+           		cout<<rand()%2+0<<" ";
+           	cout<<"\n";
+        }
         
-        cout<<"\n";
+        //cout<<"\n";
         cout<<"~\n";
     }
     return 0;

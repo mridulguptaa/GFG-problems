@@ -1,0 +1,27 @@
+Given a grid of size m * n, let us assume you are starting at (1, 1) and your goal is to reach (m, n). At any
+instance, if you are on (x, y), you can either go to (x, y + 1) or (x + 1, y).
+Now consider if some obstacles are added to the grids. How many unique paths would there be?
+An obstacle and empty space are marked as 1 and 0 respectively in the grid.
+
+Input: The first line of input contains 2 numbers n,m, denoting size of the grid. Next n lines contains m space separated integers.
+
+Output: Print a single integer denoting the maximum number of Gajas in the army.
+
+Your Task : Complete the function ways that returns a single integer denoting the number of unique paths.
+
+Constraints:
+1<=N,M<=100
+0<=A[i][j]<=1
+
+Example:
+Input:
+3 3
+0 0 0
+0 1 0
+0 0 0
+
+Output:
+2
+
+Explanation:
+There is only one obstacle in the middle.
