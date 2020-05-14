@@ -1,0 +1,22 @@
+Given a rectangular grid of dimension 2 x n. We need to find out the maximum sum such that no two chosen numbers are adjacent, vertically, diagonally or horizontally.
+
+Input: The first line contains a n, the number of columns of matrix. Next 2 lines contain n space separated integers.
+
+Output: Print the maximum sum possible.
+
+Your Task : Complete the function max_sum() arrange that returns the maximum sum.
+
+Constraints:
+1<=n<=1e5
+
+Example:
+Input:
+3
+1 4 5
+2 0 0 
+
+Output:
+7
+
+Explanation:
+Take 2+5 to get 7.
