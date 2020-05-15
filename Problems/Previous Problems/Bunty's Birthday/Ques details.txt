@@ -20,7 +20,15 @@ Input:
 4 3
 
 Output:
-2 2 1
+1 2 2
+
+Input:
+3 50
+50 100 100
+
+Output:
+1
 
 Explanation:
-Friend 2 can hit 2 times and Friend1 can hit 1 time.
+Test Case 1 : Friend1 can hit 1 time and Friend 2 can hit 2 times.
+Test Case 2 : Only Friend1 can hit only once.

@@ -1,25 +1,29 @@
-Given a set of n strings arr[], find the smallest string that contains each string in the given set as substring.We may assume that no string in arr[] is substring of another string.
+Given an array of size N. The task is to partition the given array into two subsets such that the average of all the elements in both subsets is equal. If no such partition exists print -1. Otherwise, print the partitions. If multiple solutions exist, print the solution where the length of the first subset is minimum. If there is still a tie then print the partitions where the first subset is lexicographically smallest.
 
-Input: The first line contains a n, the number of strings in the set. Next n lines contain a string each.
+Input: The first line contains a T, the number of test cases followed by n, the number of elements in the array. Next line contains n space-separated integers.
 
-Output: Print the length of of smallest superstring of the given set of strings.
-
-Your Task : Complete the function findShortestSuperstring() arrange that returns the minimum length.
+Output: Print 2 required sets of integers. If no solution exits, print -1.
 
 Constraints:
 1<=n<=10
-1<=strlen(A[i])<=50
+1<=T<=10
+Note : Sum of all elements of array won't exceed 1000.
 
 Example:
 Input:
-4
-abcd
-cdef
-fgh
-dp
+6
+1 7 15 11 29 9
 
 Output:
-10
+[9,15] ,[1,7,11,29]
+
+Input:
+3
+5 5 6
+
+Output:
+-1
 
 Explanation:
-Shortest string: "abcdefghdp"
+Test Case 1 : Average of both subsets is 12.
+Test Case 2 : Average can't be same.

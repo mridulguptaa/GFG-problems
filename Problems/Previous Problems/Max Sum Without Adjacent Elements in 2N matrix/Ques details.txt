@@ -18,5 +18,14 @@ Input:
 Output:
 7
 
+Input:
+2
+1 2
+3 4
+
+Output:
+4
+
 Explanation:
-Take 2+5 to get 7.
+Test Case 1 : Take 2+5 to get 7.
+Test Case 2 : Take 4 only.

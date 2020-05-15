@@ -5,12 +5,12 @@ An obstacle and empty space are marked as 1 and 0 respectively in the grid.
 
 Input: The first line of input contains 2 numbers n,m, denoting size of the grid. Next n lines contains m space separated integers.
 
-Output: Print a single integer denoting the maximum number of Gajas in the army.
+Output: Print a single integer denoting the number of unique paths to reach the target.
 
-Your Task : Complete the function ways that returns a single integer denoting the number of unique paths.
+Your Task : Complete the function unique_paths that returns a single integer denoting the number of unique paths.
 
 Constraints:
-1<=N,M<=100
+2<=N,M<=100
 0<=A[i][j]<=1
 
 Example:
@@ -23,5 +23,15 @@ Input:
 Output:
 2
 
+Input:
+3 3
+0 0 0
+1 1 1
+0 0 0 
+
+Output:
+0
+
 Explanation:
-There is only one obstacle in the middle.
+Test Case 1 : There is only one obstacle in the middle.
+Test Case 2 : There are no ways no get to the required square.

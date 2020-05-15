@@ -20,8 +20,18 @@ WWWB 2
 Output:
 0
 
-Explanation:
+Input:
+WW 2
+
+Output:
+0
+
+Explanation Test Case 1:
 We have 3 choices {W, WWB}, {WW, WB}, {WWW, B}.
 For first choice we will get 1*0 + 2*1 = 2.
 For second choice we will get 2*0 + 1*1 = 1.
 For third choice we will get 3*0 + 0*1 = 0.
+
+Explanation Test Cse 2:
+We have only one choice {W},{W}.
+Answer would be 1*0 + 1*0 = 0.

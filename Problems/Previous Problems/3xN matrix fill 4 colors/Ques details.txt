@@ -1,41 +1,34 @@
-Given a 3 X n board, find the number of ways to color it using at most 4 colors such that no two adjacent boxes have the same color. Diagonal neighbors are not treated as adjacent boxes.
-Output the ways%1000000007 as the answer grows quickly.
+Given a 3 X n board, find the number of ways to color it using at most 4 colors such that no two adjacent boxes have the same color. Diagonal neighbors are not treated as adjacent boxes. Output the ways%1000000007 as the answer grows quickly.
 
-Input: The first line contains the number of test cases T. For each testcase, there will be only 1 line denoting the length of the matrix. 
+Input: The first line contains the number of test cases T. For each testcase, there will be only 1 line denoting the length of the matrix. 
 
 Output: Corresponding to each test case, print the Product of all subarrays of the array in a new line.
 
-Your Task : Complete the all_subarray_product function that takes array and n and returns Product of all subarrays of the array.
+Your Task : Complete the ways function that takes  n and returns Product of all subarrays of the array.
+
 Constraints:
-
 1<=T<=100
+1<=N<=100000
 
-1<=N<=1000
-
-1<=arr[i]<=10
 Example:
 
 Input:
-
 2
-
-3
-
-10 3 7
-
+1
 2
-
-2 4
 
 Output:
-
-30870
-
-64
+36
+588
 
 Explanation:
+TestCase 1 :
 
-TestCase 1 :  Here, subarrays are [10], [10, 3], [10, 3, 7], [3], [3, 7], [7]. Prodcuts are 10, 30, 210, 3, 21 and 7 . Product of all Subarrays = 30870.
-
-TestCase 2: Here, subarrays are [2], [2, 4], [4]. Prodcuts are 2, 8, 4. Product of all Subarrays = 64.
-
+We can use either a combination of 3 colors
+or 2 colors. Now, choosing 3 colors out of 
+4 is  and arranging them 
+in 3! ways, similarly choosing 2 colors out 
+of 4 is  and while arranging
+we can only choose which of them could be at 
+centre, that would be 2 ways. 
+Answer = *3! + *2! = 36

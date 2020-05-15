@@ -4,6 +4,11 @@ Input: The first line contains n, the number of elements in the vector followed 
 
 Output: Print the minimum number of flips required in order to get minimum non-negative sum.
 
+Constraint:
+1<=n<=1000
+1<=abs(A[i])<=1000
+0<=abs(sum)<=10000
+
 Your Task: Complete the fuction min_flips that receives a vector of integers.
 
 Example:
@@ -12,4 +17,13 @@ Input:
 15 10 6
 Output:
 1
-Explanation: Here we will flip the sign of 15 to get resultant sum 1.
+
+Input:
+4
+1 2 3 4
+
+Output:
+2
+Explanation:
+Test Case 1 : Here we will flip the sign of 15 to get resultant sum 1.
+Test Case 2 : Here we will flip the sign of 2 and 3 to get resultant sum 0.
