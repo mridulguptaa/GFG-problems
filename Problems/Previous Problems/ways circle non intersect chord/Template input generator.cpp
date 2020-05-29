@@ -9,7 +9,7 @@ int main()
     cout<<t<<"\n";
     while(t--)
     {
-    	int n = rand()%100000+1;
+    	int n = rand()%10000+1;
         cout<<n<<"\n";
         // for (int i = 0; i < n; ++i)
         //     cout<<rand()%10+1<<" ";

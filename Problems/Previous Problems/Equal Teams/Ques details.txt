@@ -1,0 +1,31 @@
+Mr.Crakle has introduced a new puzzle game which can be played between two teams if and only if the average skills of the two teams is equal. You need to divide the players into two teams such that a game can be played. Note that each player must belong to exactly 1 team.
+
+If game can't be played, print -1. Otherwise, print the two teams. If multiple solutions exist, print the solution where the length of the first team is minimum. If there is still a tie then print the solution where the first team is lexicographically smallest.
+
+Input: The first line contains a T, the number of test cases followed by n, the total number of players. Next line contains n space-separated integers denoting skills of each player.
+
+Output: Print 2 required sets of integers denoting team A and team B. If no game can be played, print -1.
+
+Constraints:
+1<=n<=10
+1<=T<=10
+Note : Sum of all skills of array won't exceed 1000.
+
+Example:
+Input:
+6
+1 7 15 11 29 9
+
+Output:
+[9,15] ,[1,7,11,29]
+
+Input:
+3
+5 5 6
+
+Output:
+-1
+
+Explanation:
+Test Case 1 : Average Skills of both teams is 12.
+Test Case 2 : Average Skllis can't be same.
