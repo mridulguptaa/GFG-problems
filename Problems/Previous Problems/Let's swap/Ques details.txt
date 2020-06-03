@@ -1,0 +1,32 @@
+You are given a string, S, and a list of words in Dictionary , that are all of the same length. Find all starting indices of substring(s) in S that is a concatenation of each word in Dictionary exactly once and without any intervening characters. All words in dictionary are of same length.
+
+Input: The first line contains a T, the number of test cases followed by n, the number of strings in the dictionary. Next line contains n space-separated strings. Next line contains the string S.
+
+Output: Print the desired vector of integers.
+
+Constraints:
+1<=n<=50
+1<=T<=10
+Note : Sum of all elements of array won't exceed 1000.
+
+Example:
+Input:
+1
+3
+Geek for Geeks
+GeeksforGeeks
+
+Output:
+0
+
+Input:
+1
+3
+Geek for Geeks
+GeeksforrGeeks
+
+Output:
+
+Explanation:
+Test Case 1 : Starting index 0.
+Test Case 2 : Empty vector since an extra 'r' is present.
